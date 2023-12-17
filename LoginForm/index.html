@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="login">
+      <div class="nav">
+        <h1>Login</h1>
+        <p>Form</p>
+      </div>
+      <div class="input">
+        <div class="InputClass">
+          <p>Enter Your Email</p>
+          <span>:</span> <input id="Email" type="email" />
+        </div>
+
+        <div class="InputClass">
+          <p>Enter Your Number</p>
+          <span>:</span><input id="UserNumber" type="number" maxlength="10" />
+        </div>
+        <div class="InputClass">
+          <p>Enter Your Age</p>
+          <span>:</span> <input id="Age" type="number" />
+        </div>
+
+        <div class="InputClass">
+          <p>Enter Your Password</p>
+          <span>:</span> <input id="Password" type="password" />
+        </div>
+        <div class="InputClass">
+        <p>Conform Your Password</p>
+        <span>:</span> <input id="ConformPassword" type="password" />
+      </div>
+      </div>
+      <button id="Submit">Submit</button>
+    </div>
+
+    <!-- <details> -->
+    <div id="LoginDetails" class="LoginDetails">
+      <div
+        style="display: flex; gap: 10px"
+        id="DetailsEmail"
+        class="InputClass"
+      >
+        <h4>Enter Your Email</h4>
+        <span>:</span>
+        <p>Email</p>
+      </div>
+
+      <div
+        id="DetailsNumber"
+        style="display: flex; gap: 10px"
+        class="InputClass"
+      >
+        <h4>Enter Your Number</h4>
+        <span>:</span>
+        <p>Number</p>
+      </div>
+      <div id="DetailsAge" style="display: flex; gap: 10px" class="InputClass">
+        <h4>Enter Your Age</h4>
+        <span>:</span>
+        <p>Age</p>
+      </div>
+
+      <div
+        id="DetailsPassword"
+        style="display: flex; gap: 10px"
+        class="InputClass"
+      >
+        <h4>Enter Your Password</h4>
+        <span>:</span>
+        <p>Password</p>
+      </div>
+    </div>
+    <!-- </details> -->
+
+    <script src="script.js"></script>
+  </body>
+</html>

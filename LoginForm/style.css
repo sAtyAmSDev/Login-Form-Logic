@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1pc;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  gap: 1pc;
+  align-items: center;
+  align-content: center;
+  margin: 3pc;
+  border: 1px solid gray;
+  padding: 1pc;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  flex-direction: column;
+}
+.input {
+  display: flex;
+  gap: 1pc;
+  flex-direction: column;
+  align-content: space-between;
+  align-items: stretch;
+}
+.input .InputClass {
+  display: flex;
+  gap: 6px;
+}
+.input .InputClass p {
+  color: green;
+}
+.input .InputClass span {
+}
+.input .InputClass input {
+}
+input#Email {
+  width: 12pc;
+  background-color: transparent;
+  padding: 0.3pc;
+  border: 1px solid #80808085;
+}
+input#Email:hover{
+  background-color: transparent;
+}
+
+input#Password {
+  width: 12pc;
+  background-color: transparent;
+  padding: 0.3pc;
+  border: 1px solid #80808085;
+}
+input#ConformPassword{
+  width: 12pc;
+  background-color: transparent;
+  padding: 0.3pc;
+  border: 1px solid #80808085;
+}
+input#Age {
+  width: 12pc;
+  background-color: transparent;
+  padding: 0.3pc;
+  border: 1px solid #80808085;
+}
+
+input#UserNumber {
+  width: 12pc;
+  background-color: transparent;
+  padding: 0.3pc;
+  border: 1px solid #80808085;
+}
+
+button{
+  background-color: green;
+  color: wheat;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+  box-shadow: 1px 0px 7px 1px green;
+}
+
+
+.LoginDetails{
+  display: flex;
+  gap: 9px;
+  padding: 1pc;
+  border: 1px solid #80808070;
+  flex-direction: column;
+  opacity: 0;
+}
